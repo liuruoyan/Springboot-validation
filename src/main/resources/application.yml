@@ -1,0 +1,13 @@
+#公共配置与profiles选择无关
+mybatis:
+  typeAliasesPackage: com.cc.jsr303.entity
+  mapperLocations: classpath:mapper/*.xml
+
+
+#开发配置
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/validation
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
